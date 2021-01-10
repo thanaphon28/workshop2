@@ -8,7 +8,7 @@ age = 22
 
 3.Display the sum of 5 + 10, using two variables: x and y.
    
-_x_ = 5
+x = 5
 y  = 10
 print( x + y)
 
@@ -21,7 +21,7 @@ print(z)
 
 5.Remove the illegal characters in the variable name:
 
-myfirst_name = "John"
+my_first_name = "John"
 
 6.Insert the correct syntax to assign the same value to all three variables in one code line.
 
