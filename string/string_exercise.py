@@ -1,33 +1,33 @@
 # จงเขียนคำสั่งเพื่อแสดงความยาวของตัวอักษร "Python is one of the fastest-growing programming languages"
-Str = "Python is one of the fastest-growing programming languages"
-lenStr = len(Str)
+string = "Python is one of the fastest-growing programming languages"
+lenStr = len(string)
 print(lenStr)
 
 # จงเขียนคำสั่งเพื่อแสดงอักษรแรกของข้อความ "Python is one of the fastest-growing programming languages"
-first = Str[0]
-print(first)
+firststring = string[0]
+print(firststring)
 
 # จงเขียนคำสั่งเพื่อแสดง "fastest" ของข้อความ "Python is one of the fastest-growing programming languages"
-fastest = Str[21:27]
+fastest = string[21:28]
 print(fastest)
 
 
 # จงเขียนคำสั่งเพื่อแสดข้อความ "Python is one of the fastest-growing programming languages" ที่ไม่มี space
-print(Str.replace(" ", ""))
+print(string.replace(" ", ""))
 
 
 # จงเขียนคำสั่งเพื่อแสดข้อความ "Python is one of the fastest-growing programming languages" ให้เป็นตัวพิมใหญ่ทั้งหมด
 
-print(Str.upper())
+print(string.upper())
 
 # จงเขียนคำสั่งเพื่อแสดข้อความ "Python is one of the fastest-growing programming languages" ให้เป็นตัวพิมเล็กทั้งหมด
 
-print(Str.lower())
+print(string.lower())
 
 
 # จงเขียนคำสั่งเพื่อแสดข้อความ "Python is one of the fastest-growing programming languages" ที่ถูกแทนที่อักษร r ด้วย x ทั้งหมด
 
-print(Str.replace("r", "x"))
+print(string.replace("r", "x"))
 
 # จงเติมคำในช่องว่าเพื่อแสดงอายุ
 age = 36
