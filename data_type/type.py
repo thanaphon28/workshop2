@@ -1,0 +1,10 @@
+x = "Hello world"
+x = 20
+x = 20.5
+x = ["apple", "banana", "cherry"]
+x = ("apple", "banana", "cherry")
+x = {"name", "thanaphon", "age": 21}
+x = {"apple", "banana", "cherry"
+x = frozenset("apple", "banana", "cherry")}
+x = True
+x = b"hello"
